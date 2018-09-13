@@ -16,7 +16,7 @@ for (let i = 0; i <20; i++){
   console.log("Love me, pet me! HSSSSSS!");
   if(i%2==0){
     num=(Math.floor(Math.random()*3)+1);
-    parseInt(num);
+
     if(num==1 ){
       console.log("...human...why you taking pictures of me?...");
     }
@@ -31,13 +31,13 @@ for (let i = 0; i <20; i++){
 
 }
 for(i=1;i<=100;i++){
-  if (i%5===0 && i%5==0) {
+  if (i%5===0 && i%3==0) {
     console.log('FizzBuzz')
   }
-  else if(i%3===0){
+  else if(i%3===0 && i%5!=0){
     console.log('Fizz');
   }
-  else if (i%5===0) {
+  else if (i%5===0 && i%3!=0) {
     console.log('Buzz')
   }
 else{
